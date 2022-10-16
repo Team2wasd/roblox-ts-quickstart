@@ -4,14 +4,14 @@ import SheetValues from "@rbxts/sheetvalues";
 
 // The type parameter represents the sheet
 const sheet = new SheetValues<{
-	Foo: {
-		SomeKey: number;
-		SomeOtherKey: string;
-	};
-	Bar: {
-		SomeKey: number;
-		SomeOtherKey: string;
-	};
+    Foo: {
+        SomeKey: number;
+        SomeOtherKey: string;
+    };
+    Bar: {
+        SomeKey: number;
+        SomeOtherKey: string;
+    };
 }>("Spread id extracted from the URL");
 
 const a = sheet.Values.Foo.SomeKey; // 50

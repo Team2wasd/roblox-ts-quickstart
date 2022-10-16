@@ -2,9 +2,9 @@
 
 import Log, { Logger } from "@rbxts/log";
 Log.SetLogger(
-	Logger.configure()
-		.WriteTo(Log.RobloxOutput()) // WriteTo takes a sink and writes to it
-		.Create(), // Creates the logger from the configuration
+    Logger.configure()
+        .WriteTo(Log.RobloxOutput()) // WriteTo takes a sink and writes to it
+        .Create() // Creates the logger from the configuration
 );
 
 Log.Info("Hello, Log!");

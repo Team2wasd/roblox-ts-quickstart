@@ -8,7 +8,7 @@
 
 /*
  These are the types:
- 
+
  string
  number
  boolean
